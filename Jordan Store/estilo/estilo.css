@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{ 
+    font-family: 'Montserrat', sans-serif;
+}
+
+img{
+    height: 125px;
+    width: 225px;
+    transition-duration: 0.8s;
+}
+
+img:hover{
+    height: 150px;
+    width: 250px;
+}
+
+footer {
+    padding: ;
+}
+
+.desconto-centro, footer {
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    background: rgba(0, 0, 0, 0.9);
+    color: #fff;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
+
+.imagem-background {
+    color: #fff;
+    height: 350px;
+    width: 100%;
+    background:
+      linear-gradient(
+        rgba(0,0,0,.3),rgba(0,0,0,.3)
+      ), url("../imagens/wallpaper.jpeg");
+
+}
+
+.conteudo {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding-left: 10%;
+    font-size: 14px;
+}
+
+.conteudo h1 {
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+
+.destaques {
+    display: flex;
+    flex-direction: column;
+    margin: 4% 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.destaques h2 {
+    margin-bottom: 15px;
+}
+
+.produtos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 4%;
+
+
+}
